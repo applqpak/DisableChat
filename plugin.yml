@@ -1,0 +1,13 @@
+name: DisableChat
+version: 1.0.0
+author: applqpak
+api: [1.0.0]
+main: DisableChat\Main
+commands:
+  disablechat:
+    description: Enables/Disabled Chat For Everyone.
+    usage: "/disablechat"
+    permission: disablechat.command
+permissions:
+  disablechat.command:
+    default: op
